@@ -30,7 +30,7 @@ defmodule Santa do
   def send_email(_giver, nil), do: raise "Cant send an email to no one"
 
   def send_email(giver, receiver) do
-    IO.puts "#{giver.name} is buying for #{receiver.name}"
+    
   end
 
 
